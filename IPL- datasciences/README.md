@@ -22,7 +22,7 @@
 ### References
 -------------
 ###  1.[Python notebook about data visualisation - for beginners](https://github.com/nbala2k2/My-projects/blob/main/Theory/Data%20Visualization.ipynb)
-###  2. [Jovian](https://www.kaggle.com/nowke9/ipldata) - A platform to learn analytics.
+###  2. [Jovian](https://jovian.ai/learn/data-analysis-with-python-zero-to-pandas) - A platform to learn analytics.
 ###  3.You can also look into documentation
  -   ###  [matplotlib](https://matplotlib.org/)
  -    ### [seaborn](https://seaborn.pydata.org/)
