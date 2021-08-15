@@ -21,7 +21,8 @@
 
 ### References
 -------------
-###  1. [Jovian](https://www.kaggle.com/nowke9/ipldata) - A platform to learn analytics.
-###  2.You can also look into documentation
+###  1.[Python notebook about data visualisation - for beginners](https://github.com/nbala2k2/My-projects/blob/main/Theory/Data%20Visualization.ipynb)
+###  2. [Jovian](https://www.kaggle.com/nowke9/ipldata) - A platform to learn analytics.
+###  3.You can also look into documentation
  -   ###  [matplotlib](https://matplotlib.org/)
  -    ### [seaborn](https://seaborn.pydata.org/)
