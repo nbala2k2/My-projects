@@ -1,4 +1,4 @@
-# Project on `Ipl data analysis`
+# Project on `Ipl data Analysis`
 
 ## The dataset was taken from kaggle :- [IPL DATASET](https://www.kaggle.com/nowke9/ipldata)
 
