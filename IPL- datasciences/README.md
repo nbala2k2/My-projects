@@ -1,13 +1,13 @@
-# Project on Ipl data analysis
+# Project on `Ipl data analysis`
 
 ## The dataset was taken from kaggle :- [IPL DATASET](https://www.kaggle.com/nowke9/ipldata)
 
 ### Libraries
 ------
 ### The analysis was done using :
-* ### matplotlib 
-* ### seaborn 
-* ### pandas
+* ### `matplotlib `
+* ### ` seaborn `
+* ### `pandas`
 
 
 ### About dataset
