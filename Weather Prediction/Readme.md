@@ -1,6 +1,6 @@
 # Weather Prediction 
 
-### [The Rain in Australia Dataset](https://www.kaggle.com/jsphyg/weather-dataset-rattle-package) is from kaggle which contains 145460 days of weather reported in 49 different places . We need to predict if it will rain the next day.
+### The Rain in Australia [Dataset](https://www.kaggle.com/jsphyg/weather-dataset-rattle-package) is from kaggle which contains 145460 days of weather reported in 49 different places . We need to predict if it will rain the next day.
 
 ### Things Done
 -----
