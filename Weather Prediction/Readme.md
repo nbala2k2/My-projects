@@ -12,14 +12,14 @@
 - A model to make Prediction using scikit learn
 > - Initially used `sklearn.linear_model` . Performed quite bad. 
 > - Prediction on a day it rained had a prob of 52% only
-> Results:-
+> - Results:-
 > - Validation Accuracy : 84.1 %   
 
 
 > - Then used `sklearn.tree` (**RandomForests** and **Decison Trees**) . 
 > - The performance improved. 
 > - Though validation accuracy remained almost same . The performance on real world datasets were much better
-> Results:-
+> - Results:-
 > - Validation Accuracy : 85.21 %  
 
 
