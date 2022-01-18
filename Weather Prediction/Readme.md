@@ -19,7 +19,6 @@
 
 > - Then used `sklearn.tree` (**RandomForests** and **Decison Trees**) . 
 > - The performance improved. 
-> - Though validation accuracy remained almost same . The performance on real world datasets were much better
 > - Results:- 
 >   - Validation Accuracy : `85.37 %`  
 >   - Test Accuracy       : `84.26 %`
