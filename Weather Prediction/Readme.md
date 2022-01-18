@@ -13,8 +13,8 @@
 > - Initially used `sklearn.linear_model` . Performed quite bad. 
 > - Prediction on a day it rained had a prob of 52% only
 > - Results:- 
->     - Validation Accuracy : `85.41 %`
->     - Test Accuracy       : `84.24%`   
+>     - Validation Accuracy : `82.41 %`
+>     - Test Accuracy       : `81.24%`   
 
 
 > - Then used `sklearn.tree` (**RandomForests** and **Decison Trees**) . 
