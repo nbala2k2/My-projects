@@ -8,7 +8,7 @@
 - Data Analysis Using 
     - Matplotlib
     - seaborn
-    - plotly (A high level and a powerful API for Data visualisation 
+    - plotly (A high level and a powerful API for Data visualisation)
 - A model to make Prediction using scikit learn
 > - Initially used `sklearn.linear_model` . Performed quite bad. 
 > - Prediction on a day it rained had a prob of 52% only
