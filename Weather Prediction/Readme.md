@@ -4,23 +4,48 @@
 
 ### Summary
 -----
-
-- Data Analysis Using 
-    - Matplotlib
-    - seaborn
-    - plotly (A high level and a powerful API for Data visualisation)
-- A model to make Prediction using scikit learn
-> - Initially used `sklearn.linear_model` . Performed quite bad. 
-> - Prediction on a day it rained had a prob of 52% only
-> - Results:- 
->     - Validation Accuracy : `82.41 %`
->     - Test Accuracy       : `81.24%`   
+1. Performed a EDA to understand which features are important ( simple graphical interpretations )
+        
+      -  Used libraries: Matplotlib | Seaborn | Plotly | scikit-learn (for models)
 
 
-> - Then used `sklearn.tree` (**RandomForests** and **Decison Trees**) . 
-> - The performance improved. 
-> - Results:- 
->   - Validation Accuracy : `85.37 %`  
->   - Test Accuracy       : `84.26 %`
+2. A simple model to make Prediction using scikit learn
+    
+      - Initially used `sklearn.linear_model` . Performed quite bad. 
+      - Prediction on a day it rained had a prob of 52% only
+      - Results:- 
+      
+           > - Validation Accuracy : 82.41 %
+           > - Test Accuracy       : 81.24%  
 
 
+3. Improved by using `sklearn.tree` (RandomForests and Decison Trees) . 
+    
+      - The **performance improved drastically** (explained in detail in next point after results). 
+      - Results:- 
+      
+           > - Validation Accuracy : 85.37 %
+           > - Test Accuracy       : 84.26 % 
+      
+      - **The accuracy has not changed much , Then how is the performance said to be improving can be a nice question.**
+            
+              > A day when it rained was taken and the probability that it rains was obatined from our trained models. 
+              > It's obvious that a good model would give a higher probability in predicting it rained.
+              > The same was observed the linear sklearn classifier gave only 52% ,
+              > But our decision trees and random forest model gave about 93% probability that it will rain
+              > This clearly shows the performace has improved drastically.
+              
+4. `Gradient boosting model (GBM)` was also tested 
+      - It performed better than  sklearn linear model but not as good as our decison trees and random forest models.
+      - Results:- 
+      
+           > - Validation Accuracy : 85.53 %  
+           > - Test Accuracy       : 84.16 %
+      - Its probability of predicting that it rains or a specified day (same day as above) was **84.48 %**.
+
+### Conclusion
+
+    > GBM's and the tree models seem to give a higher accuracy as compared to a linear model which is as expected cause of model 
+    complexity and computation power. 
+    > Among GBM's and tree models its better we go with tree models as they took computationally less time and also seem to predict 
+    days it rains with higher probability
