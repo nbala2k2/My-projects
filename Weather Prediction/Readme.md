@@ -1,15 +1,15 @@
 # Weather Prediction 
 
-### The Rain in Australia [Dataset](https://www.kaggle.com/jsphyg/weather-dataset-rattle-package) is from kaggle which contains 145460 days of weather reported in 49 different places . We need to predict if it will rain the next day.
+The Rain in Australia [Dataset](https://www.kaggle.com/jsphyg/weather-dataset-rattle-package) is from kaggle which contains 145460 days of weather reported in 49 different places . We need to predict if it will rain the next day.
 
-### Summary
------
-1. Performed a EDA to understand which features are important ( simple graphical interpretations )
+## Summary
+
+### 1. Performed a EDA to understand which features are important ( simple graphical interpretations )
         
       -  Used libraries: Matplotlib | Seaborn | Plotly | scikit-learn (for models)
 
 
-2. A simple model to make Prediction using scikit learn
+### 2. A simple model to make Prediction using scikit learn
     
       - Initially used `sklearn.linear_model` . Performed quite bad. 
       - Prediction on a day it rained had a prob of 52% only
@@ -19,9 +19,9 @@
            > - Test Accuracy       : 81.24%  
 
 
-3. Improved by using `sklearn.tree` (RandomForests and Decison Trees) . 
+### 3. Improved by using `sklearn.tree` (RandomForests and Decison Trees) . 
     
-      - The **performance improved drastically** (explained in detail in next point after results). 
+      - The "performance improved drastically" (explained in detail in next point after results). 
       - Results:- 
       
            > - Validation Accuracy : 85.37 %
@@ -35,7 +35,7 @@
               > But our decision trees and random forest model gave about 93% probability that it will rain
               > This clearly shows the performace has improved drastically.
               
-4. `Gradient boosting model (GBM)` was also tested 
+### 4. `Gradient boosting model (GBM)` was also tested 
       - It performed better than  sklearn linear model but not as good as our decison trees and random forest models.
       - Results:- 
       
@@ -43,7 +43,7 @@
            > - Test Accuracy       : 84.16 %
       - Its probability of predicting that it rains or a specified day (same day as above) was **84.48 %**.
 
-### Conclusion
+## Conclusion
 
     > GBM's and the tree models seem to give a higher accuracy as compared to a linear model which is as expected cause of model 
     complexity and computation power. 
