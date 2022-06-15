@@ -9,7 +9,7 @@ The Rain in Australia [Dataset](https://www.kaggle.com/jsphyg/weather-dataset-ra
       -  Used libraries: Matplotlib | Seaborn | Plotly | scikit-learn (for models)
 
 
-### 2. A simple model to make Prediction using scikit learn
+### 2. A simple model to make Prediction using scikit learn . [Link to Notebook](https://github.com/nbala2k2/My-projects/blob/main/Weather%20Prediction/weather.ipynb)
     
       - Initially used `sklearn.linear_model` . Performed quite bad. 
       - Prediction on a day it rained had a prob of 52% only
@@ -19,7 +19,7 @@ The Rain in Australia [Dataset](https://www.kaggle.com/jsphyg/weather-dataset-ra
            > - Test Accuracy       : 81.24%  
 
 
-### 3. Improved by using `sklearn.tree` (RandomForests and Decison Trees) . 
+### 3. Improved by using `sklearn.tree` (RandomForests and Decison Trees) . [Link to Notebook](https://github.com/nbala2k2/My-projects/blob/main/Weather%20Prediction/weather_DecisionTrees%20and%20Random%20Forests.ipynb)
     
       - The "performance improved drastically" (explained in detail in next point after results). 
       - Results:- 
@@ -35,7 +35,7 @@ The Rain in Australia [Dataset](https://www.kaggle.com/jsphyg/weather-dataset-ra
               > But our decision trees and random forest model gave about 93% probability that it will rain
               > This clearly shows the performace has improved drastically.
               
-### 4. `Gradient boosting model (GBM)` was also tested 
+### 4. `Gradient boosting model (Xgboost)` was also tested [Link to notebook](https://github.com/nbala2k2/My-projects/blob/main/Weather%20Prediction/Weather_GBM.ipynb)
       - It performed better than  sklearn linear model but not as good as our decison trees and random forest models.
       - Results:- 
       
