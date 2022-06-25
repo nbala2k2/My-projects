@@ -45,7 +45,7 @@ The Rain in Australia [Dataset](https://www.kaggle.com/jsphyg/weather-dataset-ra
 
 ## Conclusion
 
-        > GBM's and the tree models seem to give a higher accuracy as compared to a linear model which is as expected cause of model 
+        > Xgboost and the tree models seem to give a higher accuracy as compared to a linear model which is as expected cause of model 
     complexity and computation power. 
-        > Among GBM's and tree models its better we go with tree models as they took computationally less time and also seem to predict 
+        > Xgboost and tree models its better we go with tree models as they took computationally less time and also seem to predict 
     days it rains with higher probability
